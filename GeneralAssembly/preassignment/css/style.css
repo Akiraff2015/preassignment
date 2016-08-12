@@ -1,0 +1,45 @@
+.heading {
+    color: #008080;
+}
+
+.sub-heading {
+    color: #FFD700;
+}
+
+.board {
+    height: 50%;
+    width: 26%;
+    display:inline-block; /
+    margin: 8%;
+
+    background-color: orange;
+}
+
+.card {
+    background-color: #ff0;
+    height: 200px;
+    width: 150px;
+    border: solid #000 1px;
+    border-radius: 25px;
+
+    float: left;
+    margin: 10px;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(157, 255, 194, 1);
+    padding: 5px;
+}
+
+.name {
+    color: orange;
+}
